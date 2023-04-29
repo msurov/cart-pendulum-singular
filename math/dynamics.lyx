@@ -1,0 +1,244 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass article
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+\begin_inset Formula $x_{b}=x-l\sin\phi$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $y_{b}=l\cos\phi$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\dot{x}_{b}=\dot{x}-l\cos\phi\dot{\phi}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\dot{y}_{b}=-l\sin\phi\dot{\phi}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\dot{x}_{b}^{2}+\dot{y}_{b}^{2}=\dot{x}^{2}+l^{2}\cos^{2}\phi\dot{\phi}^{2}-2\dot{x}l\cos\phi\dot{\phi}+l^{2}\sin^{2}\phi\dot{\phi}^{2}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $K=\frac{1}{2}m_{b}\left(\dot{x}^{2}-2l\cos\phi\dot{\phi}\dot{x}+l^{2}\dot{\phi}^{2}\right)+\frac{1}{2}m_{c}\dot{x}^{2}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $U=m_{b}gl\cos\phi$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+—
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\frac{\partial K}{\partial\dot{x}}=m_{b}\left(\dot{x}-l\cos\phi\dot{\phi}\right)+m_{c}\dot{x}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\frac{d}{dt}\frac{\partial K}{\partial\dot{x}}=m_{b}\left(\ddot{x}-l\cos\phi\ddot{\phi}+l\sin\phi\dot{\phi}^{2}\right)+m_{c}\ddot{x}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\frac{\partial K}{\partial\dot{\phi}}=m_{b}\left(-l\cos\phi\dot{x}+l^{2}\dot{\phi}\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\frac{d}{dt}\frac{\partial K}{\partial\dot{\phi}}=m_{b}\left(-l\cos\phi\ddot{x}+l\sin\phi\dot{x}\dot{\phi}+l^{2}\ddot{\phi}\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $K_{x}=0$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $K_{\phi}=m_{b}\left(l\sin\phi\dot{\phi}\dot{x}\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $U_{x}=0$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $U_{\phi}=-m_{b}gl\sin\phi$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+—
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\left(\frac{1}{l}+\frac{m_{c}}{m_{b}l}\right)\ddot{x}-\cos\phi\ddot{\phi}+\sin\phi\dot{\phi}^{2}=u$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $-\cos\phi\ddot{x}+l\ddot{\phi}-g\sin\phi=0$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+—
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $M=\left(\begin{array}{cc}
+\frac{m_{b}+m_{c}}{m_{b}l} & -\cos\phi\\
+-\cos\phi & l
+\end{array}\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $C=\left(\begin{array}{cc}
+0 & \sin\phi\dot{\phi}\\
+0 & 0
+\end{array}\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $G=\left(\begin{array}{c}
+0\\
+-g\sin\phi
+\end{array}\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+—
+\end_layout
+
+\end_body
+\end_document
